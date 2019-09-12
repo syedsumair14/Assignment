@@ -1,0 +1,14 @@
+.box {
+    background-color: rgb(49, 51, 49);
+    max-width: 60%;
+    color: yellow;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.header {
+    background-color: orange;
+    max-width: 60%;
+    color: yellow;
+    height: 40px;
+}

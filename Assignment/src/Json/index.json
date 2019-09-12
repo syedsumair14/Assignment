@@ -1,0 +1,87 @@
+{ 
+    "form":{ 
+       "questions":[ 
+          { 
+             "title":"First Name",
+             "type":"text",
+             "placeholder":"Enter First Name",
+             "key":"firstName"
+          },
+          { 
+             "title":"Last Name",
+             "type":"text",
+             "placeholder":"Enter Last Name",
+             "key":"lastName"
+          },
+          { 
+             "title":"Screen Name",
+             "type":"text",
+             "placeholder":"Enter Screen Name",
+             "key":"screenName"
+          },
+          { 
+             "title":"Date of Birth",
+             "type":"date",
+             "key":"dob"
+          },
+          { 
+             "title":"Gender",
+             "type":"radio",
+             "options":[ 
+                "Male",
+                "Female"
+             ],
+             "key":"gender"
+          },
+          { 
+             "title":"Country",
+             "type":"dropdown",
+             "options":[ 
+                "USA",
+                "India"
+             ],
+             "key":"country"
+          },
+          { 
+             "title":"Email",
+             "type":"email",
+             "placeholder":"Enter Your Email",
+             "key":"email"
+          },
+          { 
+             "title":"Phone",
+             "type":"phone",
+             "placeholder":"Enter Your Phone",
+             "key":"phone"
+          },
+          { 
+             "title":"Password",
+             "type":"password",
+             "key":"password"
+          },
+          { 
+             "title":"Confirm Password",
+             "type":"password",
+             "key":"confirmPassword"
+          },
+          { 
+             "title":"",
+             "type":"checkbox",
+             "options":[ 
+                "I Aggree to the Terms of use"
+             ],
+             "key":"checkBox"
+          }
+       ],
+       "actions":[ 
+          { 
+             "title":"Submit",
+             "type":"submit"
+          },
+          { 
+             "title":"Cancel",
+             "type":"cancel"
+          }
+       ]
+    }
+ }
